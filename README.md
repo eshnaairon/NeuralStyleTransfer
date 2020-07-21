@@ -72,7 +72,7 @@ Examples:
 
 > Conclusion
 
-- Learn how to do Neural Style Transfer in Pytorch.
+- Learn how to do Neural Style Transfer in Tensorflow.
 - This project can get you temporary public url so that you can share it.
 - If you don't have GPU and want to deploy ML model with power of GPU this can help.
 
