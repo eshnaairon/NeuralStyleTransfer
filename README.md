@@ -4,7 +4,7 @@ Neural Style Transfer runs on Google Colab with power of GPU and have a shareabl
 
 ## Neural Style Transfer.
 
-Neural style transfer is a technique which takes images two images, a *content* image and a *style* image and generates an output image which looks like the content image, but is “painted” in the style of the style image.
+Neural style transfer is a technique which takes images two images, a *content* image and a *style* image and generates an output image which looks like the content image, but is “painted” in the style of the style image. 
 
 Not everyone can make good paintings, but with the recent advances in technologies like style transfer, everyone can experience the joy of creating an artistic masterpiece.
 
@@ -32,6 +32,7 @@ Examples:
 
 ![Page 2](Images/Page2.jpeg)
 
+
 > Requirements
 
 - Google Colab
@@ -39,6 +40,7 @@ Examples:
 - Flask
 - Pyngrok
 - PIL
+
 
 > Steps to do
 
