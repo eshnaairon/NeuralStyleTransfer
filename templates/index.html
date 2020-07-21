@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  
+  <meta charset="UTF-8">
+  <title>Neural Style Transfer</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css'>
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+  <h1>Neural Style Transfer
+    <small>with google colab</small>
+  </h1>
+  <hr>
+  <form action="/program" method="POST" enctype="multipart/form-data">
+    <div class="row">
+      <div class="column">
+        <div class="avatar-upload">
+          <div class="avatar-edit">
+            <input type='file' id="imageUpload1" name="file1" accept=".png, .jpg, .jpeg" />
+            <label for="imageUpload1"></label>
+          </div>
+          <div class="avatar-preview">
+            <div id="imagePreview1" style="background-image: url(http://picsum.photos/200/300);">
+            </div>
+          </div>
+        </div>
+        <h1><small>Content Image</small></h1>
+      </div>
+      <div class="column">
+        <div class="avatar-upload">
+          <div class="avatar-edit">
+            <input type='file' id="imageUpload2" name="file2" accept=".png, .jpg, .jpeg" />
+            <label for="imageUpload2"></label>
+          </div>
+          <div class="avatar-preview">
+            <div id="imagePreview2" style="background-image: url(http://picsum.photos/200/400);">
+            </div>
+          </div>
+        </div>
+        <h1><small>Style Image</small></h1>
+      </div>
+    </div>
+    <div class="button">
+      <button type="submit" class="btn btn-primary">Generate</button>
+    </div>
+    <div class="a">
+      <a href="/generated" class="btn btn-primary">Check results</a>
+    </div>
+
+  </form>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="{{ url_for('static', filename='function.js') }}"></script>
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+  <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+</body>
+
+</html>
