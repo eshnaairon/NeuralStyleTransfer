@@ -78,4 +78,4 @@ Examples:
 
 > If you want Pytorch version:
 
-[Neural Style Transfer in Pytorch](https://github.com/AnujCodeZ)
+[Neural Style Transfer in Pytorch](https://github.com/AnujCodeZ/NeuralStyelTransfer)
