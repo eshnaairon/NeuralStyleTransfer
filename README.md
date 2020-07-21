@@ -76,6 +76,6 @@ Examples:
 - This project can get you temporary public url so that you can share it.
 - If you don't have GPU and want to deploy ML model with power of GPU this can help.
 
-> If you want Tensorflow version:
+> If you want Pytorch version:
 
-[Neural Style Transfer in Tensorflow](https://github.com/eshna)
+[Neural Style Transfer in Pytorch](https://github.com/AnujCodeZ)
